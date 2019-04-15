@@ -388,10 +388,20 @@
 					<onup>9</onup>
 					<ondown>10</ondown>
 				</control>
+				<control type="button" id="10">
+					<description>Dependencies button</description>
+					<posx>0</posx>
+					<posy>160</posy>
+					<width>210</width>
+					<height>35</height>
+					<label>39024</label>
+					<align>center</align>
+					<font>font12</font>
+				</control>
 				<control type="button" id="12">
 					<description>Start installed addon</description>
 					<posx>0</posx>
-					<posy>160</posy>
+					<posy>200</posy>
 					<width>210</width>
 					<height>35</height>
 					<textoffsetx>20</textoffsetx>
