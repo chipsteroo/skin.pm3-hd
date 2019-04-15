@@ -24,7 +24,7 @@
 			<height>650</height>
 			<texture border="40">DialogFront.png</texture>
 		</control>
-		<control type="label" id="20">
+		<control type="label" id="2">
 			<description>heading label</description>
 			<posx>40</posx>
 			<posy>40</posy>
@@ -49,21 +49,21 @@
 			<height>4</height>
 			<texture>separator.png</texture>
 		</control>
-		<control type="grouplist" id="9">
+		<control type="grouplist" id="3">
 			<description>Button area</description>
 			<posx>705</posx>
 			<posy>95</posy>
 			<width>200</width>
 			<height>390</height>
 			<itemgap>5</itemgap>
-			<pagecontrol></pagecontrol>
+			<pagecontrol>-</pagecontrol>
 			<onup>12</onup>
 			<ondown>10</ondown>
 			<onleft>60</onleft>
 			<onright>2</onright>
 			<animation effect="slide" start="0,0" end="-10,0" time="0" condition="!Control.IsVisible(60)">Conditional</animation>
 		</control>
-		<control type="grouplist" id="2">
+		<control type="grouplist" id="5">
 			<description>control area</description>
 			<posx>40</posx>
 			<posy>95</posy>
@@ -98,7 +98,7 @@
 			<posx>705</posx>
 			<posy>490</posy>
 			<animation effect="slide" start="0,0" end="-10,0" time="0" condition="!Control.IsVisible(60)">Conditional</animation>
-			<control type="button" id="10">
+			<control type="button" id="28">
 				<description>OK Button</description>
 				<posx>0</posx>
 				<posy>0</posy>
@@ -115,7 +115,7 @@
 				<onup>9</onup>
 				<ondown>11</ondown>
 			</control>
-			<control type="button" id="11">
+			<control type="button" id="29">
 				<description>Cancel Button</description>
 				<posx>0</posx>
 				<posy>40</posy>
@@ -132,7 +132,7 @@
 				<onup>10</onup>
 				<ondown>12</ondown>
 			</control>
-			<control type="button" id="12">
+			<control type="button" id="30">
 				<description>Defaults Button</description>
 				<posx>0</posx>
 				<posy>80</posy>
@@ -151,7 +151,7 @@
 			</control>
 		</control>
 
-		<control type="button" id="13">
+		<control type="button" id="10">
 			<description>Default Catagory Button</description>
 			<width>200</width>
 			<height>35</height>
@@ -161,21 +161,21 @@
 			<texturefocus border="3">button-focus2.png</texturefocus>
 			<texturenofocus border="3">button-nofocus.png</texturenofocus>
 		</control>
-		<control type="button" id="3">
+		<control type="button" id="7">
 			<description>Default Button</description>
 			<height>35</height>
 			<font>font12</font>
 			<texturefocus border="3">button-focus.png</texturefocus>
 			<texturenofocus border="3">button-nofocus.png</texturenofocus>
 		</control>
-		<control type="radiobutton" id="4">
+		<control type="radiobutton" id="8">
 			<description>Default RadioButton</description>
 			<height>35</height>
 			<font>font12</font>
 			<texturefocus border="3">button-focus.png</texturefocus>
 			<texturenofocus border="3">button-nofocus.png</texturenofocus>
 		</control>
-		<control type="spincontrolex" id="5">
+		<control type="spincontrolex" id="9">
 			<description>Default spincontrolex</description>
 			<height>35</height>
 			<texturefocus border="3">button-focus.png</texturefocus>
@@ -183,6 +183,15 @@
 			<font>font12</font>
 			<aligny>center</aligny>
 			<reverse>yes</reverse>
+		</control>
+		<control type="edit" id="12">
+			<description>Default Edit</description>
+			<height>40</height>
+			<font>font12</font>
+			<textcolor>grey2</textcolor>
+			<focusedcolor>white</focusedcolor>
+			<texturenofocus border="3">button-nofocus.png</texturenofocus>
+			<texturefocus border="3">button-focus2.png</texturefocus>
 		</control>
 		<control type="sliderex" id="8">
 			<description>Default Slider</description>
@@ -193,12 +202,12 @@
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
 		</control>
-		<control type="image" id="6">
+		<control type="image" id="11">
 			<description>Default Seperator</description>
 			<height>2</height>
 			<texture>separator.png</texture>
 		</control>
-		<control type="label" id="7">
+		<control type="label" id="14">
 			<description>Separator label</description>
 			<label></label>
 			<height>25</height>
